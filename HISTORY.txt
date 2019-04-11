@@ -1,0 +1,490 @@
+    1  ls
+    2  ls -a
+    3  ls -r
+    4  ls -R
+    5  ls -t
+    6  ls -la
+    7  man ls
+    8  qrsh
+    9  cd classdata/
+   10  ls -classdata
+   11  $HOME
+   12  cd $HOME
+   13  cd classdata/
+   14  ls week1
+   15  /
+   16  pwd
+   17  cd ../../
+   18  mkdir week_1
+   19  mkdir week1
+   20  mkdir week4
+   21  $ ls / | wc -1
+   22  //help
+   23  cmd //help
+   24  CRTL //help
+   25  rm -r
+   26  mkdir week_1
+   27  touch text.txt
+   28  mkdir week1
+   29  ls
+   30  cd classdata/
+   31  cd week1
+   32  cd ls
+   33  ls
+   34  mkdir classdata/
+   35  cd ../
+   36  LESS
+   37  pwd $HOME
+   38  mkdir lecture_1
+   39  cd../
+   40  cd $HOME
+   41  mkdir lecture_1
+   42  mkdir lecture_1/syllabus
+   43  $HOME
+   44  mkdir lecture_1TA
+   45  mkdir lecture_1TA/syllabus
+   46  mkdir lecture_1TA/syllabus/full_document
+   47  mkdir lecture_1TA/syllabus/full_document/partialdocument
+   48  pwd 
+   49  cd lecture_1TA/syllabus/
+   50  mkdir partial document
+   51  ls syllabus
+   52  ls 
+   53  rm full_document/partialdocument/
+   54  cd lecture_1TA/
+   55  cd lecture_1TA/syllabus/fulldocument
+   56  cd lecture_1TA/syllabus/full_document
+   57  mkdir-p lecture_1TA/syllabus/full_document
+   58  mkdir -p lecture_1TA/syllabus/full_document
+   59  mkdir -p lecture_1TA/syllabus/partial_document
+   60  mkdir -p lecture_1TA/syllabus/full_document
+   61  mkdir Monday_in_classTA
+   62  history syllabus
+   63  cd $HOME
+   64  cd lecture_1TA/syllabus/full_document/
+   65  ls
+   66  cp /u/home/class/
+   67  $HOMEW
+   68  $HOME
+   69  pwd
+   70  cd classdata/
+   71  ls
+   72  -la
+   73  cd $home
+   74  ../../
+   75  cd ../../
+   76  ls
+   77  cd ../
+   78  ls
+   79  cd ../
+   80  cd $home
+   81  mkdir week_1
+   82  ls
+   83  rm week_1
+   84  rmdir week_1
+   85  mkdir -p week_1/wed
+   86  ls
+   87  cd week_1/wed
+   88  rmdir -i wed
+   89  rmdir week_1
+   90  rmdir wed
+   91  cd ../
+   92  rmdir -i week_!
+   93  rmdir -i week_1
+   94  cd ../
+   95  ls
+   96  cd classdata
+   97  ls
+   98  cd week1
+   99  cd week1/
+  100  cd Week1
+  101  ls
+  102  cd Wednesday_in_class/
+  103  ls
+  104  cd ../Monday_in_class
+  105  ls
+  106  cd Do_first_Build_directory_exercise.txt
+  107  head Do_first_Build_directory_exercise.txt
+  108  nano open Do_first_Build_directory_exercise.txt
+  109  cd $home
+  110  mkdir lecture_1
+  111  cd lecture_1
+  112  mkdir syllabus
+  113  mkdir syllabus/full_document
+  114  ls
+  115  mkdir syllabus/partial_document
+  116  ls
+  117  cd syllabus
+  118  ls
+  119  cd ../
+  120  ls
+  121  cd syllabus/full_document
+  122  cd lecture_1/syllabus/full_document
+  123  cd ~/classdata/
+  124  cd week1
+  125  cd week_1
+  126  ls
+  127  cd Week1
+  128  ls
+  129  cd Monday_in
+  130  cd Monday_in_class/
+  131  ls
+  132  pwd
+  133  cd ~
+  134  cd lecture_1
+  135  ls
+  136  cd syllabus
+  137  cd full_document
+  138  cp /u/home/class/c177/c177-27/classdata/Week1/Monday_in_class ~/lecture_1/syllabus/full_document
+  139  cp /u/home/class/c177/c177-27/classdata/Week1/Monday_in_class/syllabus.txt ~/lecture_1/syllabus/full_document
+  140  ls
+  141  pwd
+  142  qrsh
+  143  module av
+  144  module load git
+  145  git config --global user.name sohil2710
+  146  git config --global user.name "sohil2710"
+  147  git config --global user.email "sohil.joshi93@gmail.com"
+  148  git config --list
+  149  mkdir eeb-177
+  150  cd eeb-177
+  151  pwd
+  152  git init
+  153  ls -a
+  154  touch README.txt
+  155  ls
+  156  nano README.txt
+  157  cat README.txt
+  158  touch Favorite_animal.txt
+  159  nano Favorite_animal.txt 
+  160  cat Favorite_animal.txt 
+  161  git status
+  162  git add README.txt 
+  163  git add Favorite_animal.txt 
+  164  git status
+  165  git commit -m "My favorite animal"
+  166  nano Favorite_animal.txt 
+  167  cat Favorite_animal.txt 
+  168  git diff
+  169  git add Favorite_animal.txt 
+  170  git commit -m "Partner's favorite animal"
+  171  git remote add origin https://github.com/sohil2710/spring2019.git
+  172  git push -u origin master
+  173  git config --global credential.helper cache
+  174  git config --global credential.helper 'cache --timeout=3600'
+  175  pwd
+  176  git clone https://github.com/dechavezv/eeb-177-Discussion.git
+  177  cp eeb-177-Discussion/W1-Discussion-In-class.txt ./
+  178  nano W1-Discussion-In-class.txt 
+  179  rm -rf eeb-177-Discussion
+  180  git add W1-Discussion-In-class.txt 
+  181  git commit -m 'In-class-activity-W1'
+  182  push -u origin master
+  183  git push -u origin master
+  184  pwd
+  185  git clone https://github.com/KyroGrace/Sohil-and-Kyro-s-Favorite-Animals
+  186  ls
+  187  touch SharkFacts.txt
+  188  nano SharkFacts.txt 
+  189  git status
+  190  git add SharkFacts.txt 
+  191  git status
+  192  ls
+  193  ls -a
+  194  cp SharkFacts.txt Sohil-and-Kyro-s-Favorite-Animals/
+  195  cd Sohil-and-Kyro-s-Favorite-Animals/
+  196  git add SharkFacts.txt 
+  197  git commit 'Shark Facts Kyro'
+  198  git status
+  199  git commit -m 'Shark Facts Kyro'
+  200  git commit -m "Shark Facts Kyro Sohil"
+  201  git push -u origin master
+  202  cs ../../
+  203  cd../../
+  204  cd ~
+  205  qrsh
+  206  q
+  207  pwd
+  208  ls
+  209  ls ~/lecture_1/
+  210  ls
+  211  cd ~/lecture_1/syllabus
+  212  ls
+  213  cd ~/lecture_1/syllabus/partial_document/
+  214  cd classdata/
+  215  ls
+  216  cd week1
+  217  pwd
+  218  cd ~
+  219  ls
+  220  cd classdata
+  221  cd week1
+  222  ls
+  223  cd classdata
+  224  ls
+  225  cd ../
+  226  ls
+  227  cd week1
+  228  cd Week1/
+  229  ls
+  230  cd Monday_in_class/
+  231  ls
+  232  pwd
+  233  cp /u/home/class/c177/c177-27/classdata/Week1/Monday_in_class/final_project.txt /u/home/class/c177/c177-27/lecture_1/syllabus/partial_document
+  234  cp /u/home/class/c177/c177-27/classdata/Week1/Monday_in_class/in_class_participation.txt /u/home/class/c177/c177-27/lecture_1/syllabus/partial_document
+  235  cp /u/home/class/c177/c177-27/classdata/Week1/Monday_in_class/In_class_Participation.txt /u/home/class/c177/c177-27/lecture_1/syllabus/partial_document
+  236  cp /u/home/class/c177/c177-27/classdata/Week1/Monday_in_class/Homework.txt /u/home/class/c177/c177-27/lecture_1/syllabus/partial_document
+  237  cp /u/home/class/c177/c177-27/classdata/Week1/Monday_in_class/Lab_assignments_participation.txt /u/home/class/c177/c177-27/lecture_1/syllabus/partial_document
+  238  cd /u/home/class/c177/c177-27/lecture_1/syllabus/partial_document
+  239  ls
+  240  cd ../
+  241  ls
+  242  cd full_document/
+  243  ls
+  244  cat In_class_Participation Homework.txt Lab_assignments_participation.txt final_project.txt > course_assignments
+  245  cd /u/home/class/c177/c177-27/lecture_1/syllabus/full_document/
+  246  cat In_class_Participation Homework.txt Lab_assignments_participation.txt final_project.txt > course_assignments
+  247  cd /u/home/class/c177/c177-27/lecture_1/syllabus/full_document/
+  248  cd /u/home/class/c177/c177-27/lecture_1/syllabus/partial_document/
+  249  cat In_class_Participation Homework.txt Lab_assignments_participation.txt final_project.txt > course_assignments
+  250  ls
+  251  cat In_class_Participation.txt Homework.txt Lab_assignments_participation.txt final_project.txt > course_assignments
+  252  ls
+  253  cd course_assignments 
+  254  less course_assignments 
+  255  more course_assignments 
+  256  ls
+  257  mv course_assignments course_assignments.txt
+  258  ls
+  259  mv course_assignments.txt ../full_document/
+  260  ls
+  261  cd ../full_document/
+  262  ls
+  263  cd ../partial_document/
+  264  ls
+  265  ls *
+  266  ls *_*
+  267  ls I*
+  268  cat * > course_assignments.txt
+  269  ls
+  270  cd ../full_document/
+  271  ls
+  272  rm course_assignments
+  273  ls
+  274  wc *
+  275  cd ../partial_document/
+  276  ls
+  277  rm *
+  278  ls
+  279  cd ~
+  280  ls
+  281  mkdir wget_example
+  282  ls
+  283  cd wget_example/
+  284  wget ftp://ftp.ncbi.nlm.nih.gov/1000genomes/ftp/README.populations
+  285  ls
+  286  head README.populations 
+  287  qrsh
+  288  module load git
+  289  ls
+  290  git config --list
+  291  git clone https://github.com/pceeb/first-assignment-sohil2710.git
+  292  nano first-assignment-sohil2710/
+  293  ls
+  294  cp first-assignment-sohil2710/First_assignment.txt ./
+  295  nano First_assignment.txt 
+  296  ls
+  297  module load git
+  298  head First_assignment.txt 
+  299  more First_assignment.txt 
+  300  more First_assignment_Sohil.txt 
+  301  git add First_assignment_Sohil.txt 
+  302  git add first-assignment-sohil2710/
+  303  git add First_assignment.txt 
+  304  git config --list
+  305  git init
+  306  ls
+  307  more First_assignment_Sohil.txt 
+  308  git add First_assignment_Sohil.txt 
+  309  git commit -m 'Week-1-homework'
+  310  git push -u origin master
+  311  module load git
+  312  git config --list
+  313  pwd
+  314  ls
+  315  git init
+  316  git clone https://github.com/pceeb/first-assignment-sohil2710.git
+  317  git add First_assignment_Sohil.txt 
+  318  git commit -m 'First-homework'
+  319  git push -u origin master
+  320  cd first-assignment-sohil2710/
+  321  git push -u origin master
+  322  ls
+  323  cd first-assignment-sohil2710/
+  324  module load git
+  325  nano First_assignment.txt 
+  326  more First_assignment.txt 
+  327  git add First_assignment.txt 
+  328  git commit -m "Homework1"
+  329  git push -u origin master
+  330  https://github.com/pceeb/first-assignment-nicocodiaz.git
+  331  git@github.com:pceeb/first-assignment-teebrooke.git
+  332  cd~
+  333  $home
+  334  git@github.com:pceeb/first-assignment-teebrooke.git
+  335  mkdir git@github.com:pceeb/first-assignment-teebrooke.git
+  336  pwd
+  337  ls
+  338  mkdir first-assignmentTA
+  339  qrsh
+  340  nano
+  341  ls
+  342  cd HOFFMAN2_TA_LC 
+  343  nano HOFFMAN2_TA_LC 
+  344  ls
+  345  pwd
+  346  mv /u/home/class/c177/c177-27/HOFFMAN2_TA_LC.txt classdata/In_class/week2/HOFFMAN2_instructions/
+  347  cd classdata/In_class/week2/HOFFMAN2_instructions/
+  348  ls
+  349  cd ~
+  350  ls
+  351  rm HOFFMAN2_TA_LC 
+  352  ls
+  353  cd classdata/In_class/week2/HOFFMAN2_instructions/
+  354  ls
+  355  cd ~
+  356  qrsh
+  357  clear
+  358  ls
+  359  mkdir ~/lecture_1
+  360  mkdir lecture_1TA
+  361  cd lecture_1TA/syllabus/partial_documents
+  362  mkdir week2_wed/
+  363  rm week2_wed/
+  364  rv weel2_wed/
+  365  find
+  366  clear
+  367  ls
+  368  nano test
+  369  ls
+  370  nano
+  371  echo "i love dogs"
+  372  echo "i love dogs" > dogs.txt
+  373  head dog.txt
+  374  printf "cats are okay too" 
+  375  printf "cats are ok too\n
+  376  ls
+  377  head dogs.txt 
+  378  printf "cats are ok too\n"
+  379  printf "cats are ok too " >dog.txt
+  380  printf "cats are ok too " > dog.txt
+  381  head dog.txt
+  382  printf "cats are ok too\n" >> dog.txt
+  383  head dog.txt
+  384  printf "cats are ok too\n" >> dog.txtclear
+  385  cleart
+  386  clear
+  387  ~/classdata/week2/
+  388  mkdir ~/classdata/week2/TA
+  389  wc -l < sort_ex_1.txt >sort_redirect.txt
+  390  head sort_redirect.txt
+  391  nano hoffman2_sj_awd.txt
+  392  ls
+  393  cd classdata
+  394  ls
+  395  cd ../
+  396  mv hoffman2_sj_awd.txt ~/classdata/In_class/week2/HOFFMAN2_instructions/
+  397  cd classdata/In_class/week2/
+  398  ls
+  399  cd HOFFMAN2_instructions/
+  400  ls
+  401  cd ~
+  402  cd  ~/classdata/In_class/week2/HOFFMAN2_instructions/
+  403  cd ~
+  404  cd classdata/
+  405  cd Week2
+  406  ls
+  407  sort sort_ex_1.txt 
+  408  less sort_ex_1.txt 
+  409  sort -r sort_ex_1.txt 
+  410  wc *.txt
+  411  ls
+  412  pwd
+  413  ../
+  414  cd 
+  415  cd ../
+  416  pwd
+  417  ls
+  418  cd ~
+  419  ls
+  420  cd ../
+  421  cd $HOME
+  422  wc ./
+  423  wc
+  424  wc *
+  425  wc *.txt
+  426  cd dog.txt
+  427  head dog.txt
+  428  head first-assignment.txt
+  429  head First_assignment.txt
+  430  head -3 First_assignment
+  431  head -3 First_assignment.txt
+  432  head -3
+  433  head -3 First_assignment.txt
+  434  ls
+  435  rm first-assignment-sohil2710/
+  436  rmdir first-assignment-sohil2710/
+  437  rm -r first-assignment-sohil2710/
+  438  rmdir week2_wed/
+  439  ls
+  440  top
+  441  ls
+  442  wc week1
+  443  ls week1
+  444  rmdir week1
+  445  ls wget_example/
+  446  wc wget_example/
+  447  rmdir wget_example/
+  448  rm -r wget_example/
+  449  ls
+  450  ls week_1
+  451  wc week_1
+  452  rm -r week_1
+  453  ls
+  454  ls lecture_1
+  455  wc lecture_1
+  456  rm -r lecture_1
+  457  ls
+  458  pwd
+  459  git
+  460  module unload git
+  461  git
+  462  module av g
+  463  module load git
+  464  git config --global teebrooke
+  465  git config --global user.name teebrooke
+  466  git config --global user.email teebrooke@g.ucla.edu
+  467  git config --list
+  468  mkdir eeb-177
+  469  ls eeb-177/
+  470  mkdir eeb-177TA
+  471  cd eeb-177TA
+  472  ls 
+  473  pwd
+  474  git init
+  475  ls
+  476  ls -a
+  477  touch README.txt
+  478  ls
+  479  nano
+  480  nano README.txt
+  481  cat README.txt 
+  482  touch Favorite_animal.txt
+  483  nano Favorite_animal.txt 
+  484  cat Favorite_animal.txt 
+  485  git status
+  486  git add Favorite_animal.txt 
+  487  git add README.txt 
+  488  HISTORY
+  489  history
+  490  history > HISTORY.txt
